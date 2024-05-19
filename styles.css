@@ -177,6 +177,36 @@ form input[type="text"], button[type="submit"]{
     line-height: 30px;
     white-space:pre-line ;
 
+
+
+}
+
+@media (max-width: 768px) {
+    .recipe-detail {
+        width: 80%;
+        height: 70%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-detail {
+        width: 90%;
+        height: 80%;
+        font-size: 18px;
+    }
+
+    .recipe-details-content {
+        padding: 20px;
+    }
+
+    .ingredientList {
+        margin-left: 10px;
+    }
+
+    .recipeInstructions p {
+        line-height: 25px;
+    }
 }
 
 .recipe-close-btn{
